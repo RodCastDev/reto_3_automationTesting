@@ -8,9 +8,9 @@ funcionamiento, de esta forma se verifican atributos de calidad.
 
 ### EJECUCIÓN
 
-*El proyecto puede ser ejecutado a través del gestor de paquetes node.js y la instalación de Cypress.
-*Importante realizar instalación de dependencias con el comando “npm install”.
-*El proyecto puede ser ejecutado a través de la terminal ubicado en la raíz, con el comando npm run test
+* El proyecto puede ser ejecutado a través del gestor de paquetes node.js y la instalación de Cypress.
+* Importante realizar instalación de dependencias con el comando “npm install”.
+* El proyecto puede ser ejecutado a través de la terminal ubicado en la raíz, con el comando npm run test
 
 ## HERRAMIENTAS TECNOLÓGICAS
 
