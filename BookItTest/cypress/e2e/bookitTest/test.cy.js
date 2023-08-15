@@ -18,19 +18,18 @@ describe('test book it', ()=>{
 
         basePageM.enterPrices(bajo);
         cy.get(".HotelCard__Price").each(card => {cy.get(card).should("contains.text", bajo)});
-        cy.wait(2000);
 
         basePageM.enterPrices(medio);
         cy.get(".HotelCard__Price").each(card => {cy.get(card).should("contains.text", medio)});
-        cy.wait(2000);
 
         basePageM.enterPrices(alto);
         cy.get(".HotelCard__Price").each(card => {cy.get(card).should("contains.text", alto)});
-        cy.wait(2000);
     });
 
     it('clear filters',() =>{
         basePageM.clearSelect()
+        cy.get(".HotelsContainer").should('be.visible');
+
     });
 
     it('view all cards',() =>{

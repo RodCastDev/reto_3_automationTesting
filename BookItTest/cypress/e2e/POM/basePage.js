@@ -17,3 +17,4 @@ class basePage{
 }
 
 export const basePageM = new basePage;
+
