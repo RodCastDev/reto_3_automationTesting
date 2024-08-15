@@ -1,0 +1,19 @@
+{
+  "name": "reto3cypress",
+  "version": "1.0.0",
+  "description": "Reto 3 Test Cypress ",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "Cypress",
+    "testing",
+    "JavaScript"
+  ],
+  "author": "Rodrigo Castiblanco",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.2"
+  }
+}
